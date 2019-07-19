@@ -1,0 +1,16 @@
+{
+  "name": "GoodTwitter",
+  "version": "1.0",
+  "description": "Forces your browser to use old twitter.",
+  "manifest_version": 2,
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://*.twitter.com/"
+  ],
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  }
+}
