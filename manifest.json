@@ -7,11 +7,13 @@
     "webRequest",
     "webRequestBlocking",
     "*://*.twitter.com/",
-    "cookies"
+    "browsingData",
+    "tabs"
   ],
 
   "background": {
     "scripts": ["background.js"],
     "persistent": true
-  }
+  },
+  "icons": {"128": "128.png"}
 }

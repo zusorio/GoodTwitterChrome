@@ -22,10 +22,12 @@ var requestFilter = {
     };
 
 function removeCookie() {
-    chrome.cookies.remove({"url": "https://*.twitter.com/*", "name": "ct0"})
-    // var clear = chrome.cookies.removeA({
-    //     hostnames: ["twitter.com"]
-    // });
+    chrome.browsingData.remove({"origins": ["https://twitter.com"]}, {"cacheStorage": true, "cache": true});
+    chrome.tabs.query({url: "*://*.twitter.com/*"}, function (result) {
+        result.forEach(function (tab) {
+            chrome.tabs.reload(tab.id)
+        })
+    });
 }
 
 chrome.webRequest.onBeforeSendHeaders.addListener(handler, requestFilter, extraInfoSpec);
