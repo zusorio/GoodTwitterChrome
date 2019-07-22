@@ -21,4 +21,12 @@ var requestFilter = {
         return blockingResponse;
     };
 
+function removeCookie() {
+    chrome.cookies.remove({"url": "https://*.twitter.com/*", "name": "ct0"})
+    // var clear = chrome.cookies.removeA({
+    //     hostnames: ["twitter.com"]
+    // });
+}
+
 chrome.webRequest.onBeforeSendHeaders.addListener(handler, requestFilter, extraInfoSpec);
+chrome.runtime.onInstalled.addListener(removeCookie);
