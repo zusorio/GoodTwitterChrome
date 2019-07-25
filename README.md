@@ -4,7 +4,8 @@ I don't really know any JS or anything about addons, pull requests are appreciat
 This was built in 10 minutes, so good luck.
 
 ## Installation
-[Chrome Web Store](https://chrome.google.com/webstore/detail/goodtwitter/jbanhionoclikdjnjlcmefiofgjimgca)
+This extension is available on [Chrome Web Store](https://chrome.google.com/webstore/detail/goodtwitter/jbanhionoclikdjnjlcmefiofgjimgca).
 
 ## License
-[MIT](https://opensource.org/licenses/MIT)
+This extension is released under the [MIT License](https://opensource.org/licenses/MIT).
+See [LICENSE](LICENSE) for more details.
