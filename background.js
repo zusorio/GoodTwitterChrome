@@ -1,3 +1,5 @@
+"use strict";
+
 var requestFilter = {
         urls: ["https://*.twitter.com/*"]
     },
