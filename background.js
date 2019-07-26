@@ -11,8 +11,8 @@ const handler = function (details) {
 
     let headers = details.requestHeaders;
     let blockingResponse = {};
-
-    for (let i = 0, const l = headers.length; i < l; ++i) {
+    const l = headers.length
+    for (let i = 0; i < l; ++i) {
         if (headers[i].name == 'User-Agent') {
             headers[i].value = 'Mozilla/5.0 (Windows NT 9.0; WOW64; Trident/7.0; rv:11.0) like Gecko';
             break;
