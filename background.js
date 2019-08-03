@@ -11,8 +11,8 @@ var requestFilter = {
             blockingResponse = {};
 
         for (var i = 0, l = headers.length; i < l; ++i) {
-            if (headers[i].name == 'User-Agent') {
-                headers[i].value = 'Mozilla/5.0 (Windows NT 9.0; WOW64; Trident/7.0; rv:11.0) like Gecko';
+            if (headers[i].name === 'User-Agent') {
+                headers[i].value = 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; AS; rv:11.0) Waterfox/56.2';
                 break;
             }
         }
