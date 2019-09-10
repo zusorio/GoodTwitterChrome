@@ -16,6 +16,13 @@
     "persistent": true
   },
 
+  "content_scripts": [
+    {
+      "matches": ["https://*.twitter.com/*"],
+      "js": ["fix-twitter.js"]
+    }
+  ],
+
   "browser_action": {
     "default_popup": "popup/info.html"
   },
