@@ -7,7 +7,9 @@ assignees: ''
 
 ---
 
-**Known Issues - Delete this**
+**Known Issues - DELETE THIS AFTER READING!!!!!!!**
+If clicking on tweets causes your tweet to open on the authors page try the GoodTwitter beta https://chrome.google.com/webstore/detail/goodtwitter-beta/ehjbcokpmfbmpjlldihlcbkoakikcomd
+
 
 
 **Describe the bug**
