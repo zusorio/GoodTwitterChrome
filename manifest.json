@@ -1,6 +1,6 @@
 {
   "name": "GoodTwitter",
-  "version": "1.4",
+  "version": "2.1",
   "description": "Forces your browser to use old twitter.",
   "manifest_version": 2,
   "permissions": [
@@ -15,6 +15,12 @@
     "scripts": ["background.js"],
     "persistent": true
   },
+  "content_scripts": [
+    {
+      "matches": ["https://*.twitter.com/*"],
+      "js": ["remove-banner.js"]
+    }
+  ],
 
   "browser_action": {
     "default_popup": "popup/info.html"
