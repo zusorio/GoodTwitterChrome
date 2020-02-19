@@ -1,6 +1,6 @@
 {
   "name": "GoodTwitter",
-  "version": "2.1",
+  "version": "2.2",
   "description": "Forces your browser to use old twitter.",
   "manifest_version": 2,
   "permissions": [
