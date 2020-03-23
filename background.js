@@ -14,7 +14,7 @@ const handler = function (details) {
     const l = headers.length;
     for (let i = 0; i < l; ++i) {
         if (headers[i].name === 'User-Agent') {
-            headers[i].value = 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; AS; rv:11.0) Waterfox/56.2';
+            headers[i].value = 'Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.18';
         } else if (headers[i].name === 'Cookie') {
             headers[i].value = headers[i].value.replace(/rweb_optin=.*?(; .*)?$/i, "rweb_optin=off$1");
         }
