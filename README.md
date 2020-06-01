@@ -1,3 +1,4 @@
+# Twitter has shut down the legacy version and GoodTwitter will no longer be supported
 # GoodTwitter
 Removes twitters stupid redesign in chrome by changing the user agent on all requests to twitter.
 I don't really know any JS or anything about addons, pull requests are appreciated.
