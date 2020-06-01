@@ -1,3 +1,4 @@
+# Twitter has shut down the legacy version and GoodTwitter will no longer be supported
 # Troubleshooting
 If the add-on isn't working for you, try these steps
 
